@@ -12,11 +12,12 @@ class MainActivity : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.button)
 
-        button.setOnClickListener { button.text = person1.title + " " + person1.description }
+        button.setOnClickListener { button.text = person2.title + " " + person2.description }
     }
 
     data class PersonClass(val title: String, val description: String)
 
     val person1 = PersonClass("Pipi", "Porklon")
+    val person2 = person1.copy(title = "Pupi")
 
 }
