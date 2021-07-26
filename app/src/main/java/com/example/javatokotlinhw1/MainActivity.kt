@@ -1,7 +1,6 @@
 package com.example.javatokotlinhw1
 
 import android.os.Bundle
-import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
@@ -13,6 +12,11 @@ class MainActivity : AppCompatActivity() {
 
         val button = findViewById<Button>(R.id.button)
 
-        button.setOnClickListener { button.text = "text" }
+        button.setOnClickListener { button.text = person1.title + " " + person1.description }
     }
+
+    data class PersonClass(val title: String, val description: String)
+
+    val person1 = PersonClass("Pipi", "Porklon")
+
 }
