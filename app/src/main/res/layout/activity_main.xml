@@ -15,4 +15,32 @@
         android:textSize="@dimen/sp32"
         android:layout_gravity="center"/>
 
+    <TextView
+        android:layout_weight="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textW"
+        android:text="text"
+        android:textSize="@dimen/sp32"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_weight="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textW2"
+        android:text="text"
+        android:textSize="@dimen/sp32"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_weight="2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textW3"
+        android:text="text"
+        android:textSize="@dimen/sp32"
+        android:layout_gravity="center"/>
+
+
 </LinearLayout>
