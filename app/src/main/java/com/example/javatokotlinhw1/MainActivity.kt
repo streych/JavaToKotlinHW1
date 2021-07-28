@@ -39,6 +39,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+
     data class PersonClass(val title: String, val description: String)
 
     val person1 = PersonClass("Pipi", "Porklon")
